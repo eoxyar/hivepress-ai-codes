@@ -2,7 +2,7 @@
 Some ai generated plugins 
 HP Conditional Dropdowns
 WordPress Plugin for HivePress — User Guide
-Version 18  ·  Compatible with HivePress 1.x  ·  jurnalcapturi.fishline.ro
+
 
 What is this plugin?
 HP Conditional Dropdowns adds linked parent → child dropdown fields to your HivePress-based WordPress site. When a user selects a value in the parent field (e.g. a car brand), the child field (e.g. model) automatically updates to show only the relevant options.
