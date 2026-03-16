@@ -45,12 +45,18 @@ Values that are only numbers (e.g. 80, 145) must be prefixed with _. Store them 
 The underscore prefix also ensures numeric models sort at the top of dropdown lists, before alphabetical entries.
 
 Summary:
-What you store in DB	What users see
-Alfa_Romeo	Alfa Romeo
-_80	80
-_145	145
-A3	A3
-Grand_Cherokee	Grand Cherokee
+
+What you store in DB =========What users see
+
+Alfa_Romeo======Alfa Romeo
+
+_80 ======	80
+
+_145 ======	145
+
+A3 ======	A3
+
+Grand_Cherokee ======	Grand Cherokee
 
 
 
