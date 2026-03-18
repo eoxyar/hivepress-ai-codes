@@ -1,5 +1,6 @@
 # hivepress-ai-codes
 Some ai generated plugins 
+
 HP Conditional Dropdowns
 WordPress Plugin for HivePress — User Guide
 
@@ -58,7 +59,46 @@ A3 ======	A3
 
 Grand_Cherokee ======	Grand Cherokee
 
-
-
 ⚠ Important Warning
 If you deactivate or delete the HP Conditional Dropdowns plugin, all conditional field data stored in listings will be lost. Always keep the plugin active as long as listings depend on it.
+
+
+
+HIVEPRESS GEOLOCATION using OpenStreetMap
+
+The plugin use OpenStreetMap 
+
+
+
+HIVEPRESS OpenStreetMap PICKER
+MUST CREATE TEMPLATE FILES in Hivepress-Templates 3 files. 1. Add Listing(Details) 2. Listing 3. Listing(Editing)
+
+* Plugin Name: HivePress OpenStreetMap Picker
+ * Description: Interactive OpenStreetMap location picker for HivePress listing forms. Saves coordinates to hp_latitude/hp_longitude. Displays map automatically whenever coordinates are saved.
+ * Version: 2.0
+ * Author: Your Name
+ * License: GPLv2 or later
+ * Text Domain: hpomp
+ *
+ * REQUIRES:
+ * - HivePress plugin active
+ *
+ * SHORTCODES:
+ * [hpomp_picker]          — Map picker for add/edit listing forms
+ * [hpomp_display]         — Displays the saved map on a single listing page
+ * [hpomp_listings_map]    — Shows all listings with coordinates on one map
+ */
+
+
+HP MULTISTEP FORM v.8.8
+What it does
+Transforms the HivePress Add Listing form into a guided step-by-step wizard. Instead of showing all fields at once, the form is split into pages with a progress bar and Back / Next navigation. This reduces visual overwhelm for users and leads to higher form completion rates.
+The plugin works automatically — no shortcode needed on the listing page. You configure the steps once in the admin panel and the wizard appears on every Add Listing page.
+
+[multistep-form-readme.docx](https://github.com/user-attachments/files/26095727/multistep-form-readme.docx)
+
+
+
+HP TOP LISTINGS BLOCK
+Widget
+// Shortcode: [hp_top category="your-category" limit="3"]
