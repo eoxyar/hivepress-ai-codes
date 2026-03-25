@@ -76,6 +76,8 @@ MUST CREATE TEMPLATE FILES in Hivepress-Templates 4 files. 1. Add Listing(Detail
 To create automaticaly this files please import Testhivepress.Templates4p.xml file, contain also the shortcodes for the hivepress openstreetmap picker plugin.
 
 FOR IMPORT GO TO wp admin Dashboard-Tools-Import-Wordpress-Run Importer , select the xml file and import it.
+SETTINGS in Wp admin-Dashboard-Settings-OSM Map Picker 
+These settings control the default map center, zoom and tile layer. Shortcode attributes override these values when specified.
 * Plugin Name: HivePress OpenStreetMap Picker
 * Description: Interactive OpenStreetMap location picker for HivePress listing forms. Saves coordinates to hp_latitude/hp_longitude. Displays map automatically whenever coordinates are saved.
  * Version: 2.0
