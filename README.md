@@ -71,19 +71,19 @@ The plugin use OpenStreetMap
 
 
 HIVEPRESS OpenStreetMap PICKER
-MUST CREATE TEMPLATE FILES in Hivepress-Templates 3 files. 1. Add Listing(Details) 2. Listing 3. Listing(Editing)
-To create automaticaly this files please import testhivepress.Templates.xml file, contain also the shortcodes for the hivepress openstreetmap picker plugin.
+MUST CREATE TEMPLATE FILES in Hivepress-Templates 4 files. 1. Add Listing(Details) 2. Listing 3. Listing(Editing) 4. Listings
+
+To create automaticaly this files please import Testhivepress.Templates4p.xml file, contain also the shortcodes for the hivepress openstreetmap picker plugin.
+
 FOR IMPORT GO TO wp admin Dashboard-Tools-Import-Wordpress-Run Importer , select the xml file and import it.
 * Plugin Name: HivePress OpenStreetMap Picker
- * Description: Interactive OpenStreetMap location picker for HivePress listing forms. Saves coordinates to hp_latitude/hp_longitude. Displays map automatically whenever coordinates are saved.
+* Description: Interactive OpenStreetMap location picker for HivePress listing forms. Saves coordinates to hp_latitude/hp_longitude. Displays map automatically whenever coordinates are saved.
  * Version: 2.0
  * Author: Your Name
  * License: GPLv2 or later
  * Text Domain: hpomp
- *
  * REQUIRES:
  * - HivePress plugin active
- *
  * SHORTCODES:
  * [hpomp_picker]          — Map picker for add/edit listing forms
  * [hpomp_display]         — Displays the saved map on a single listing page
